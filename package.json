@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-ejs-layouts": "^2.5.1",
+    "yarn": "^1.22.22"
+  },
+  "name": "pizza-delivery-tracker",
+  "version": "1.0.0",
+  "description": "this is realtime pizza delivery app",
+  "main": "index.js",
+  "author": "Tanya Dubey",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "server":"node server.js"
+  },
+
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
